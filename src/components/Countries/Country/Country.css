@@ -1,0 +1,35 @@
+.country{    
+    background-color: beige;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.country-name{
+    color: mediumslateblue;
+    margin: 8px;
+    padding: 5px;
+    border: 1px solid mediumslateblue;
+    border-radius: 10px;
+}
+
+.country-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.country-desc{    
+    background-color: azure;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+}
+
+.country-flag{
+    margin: 7px;
+}
+
+.country-flag img{
+    border-radius: 10px;
+}
